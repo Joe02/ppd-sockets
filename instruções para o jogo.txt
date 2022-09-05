@@ -1,0 +1,24 @@
+Como rodar o jogo:
+
+1º - Instalar o Python 3.10 no computador, juntamente com as bibliotecas mencionadas no readme.txt
+
+2º - Rodar o arquivo startGame.py, selecionar um nome de usuário e definir tanto ip do servidor como sua porta.
+
+3º - Após definir seu usuário e propriedades do servidor, escolher se você irá hostear a partida (se tornando assim o primeiro a jogar) ou se você entrará em um lobby já existente (se tornando assim o segundo a jogar).
+
+4º - Após abrir o primeiro startGame.py e selecionar suas opções, abrir o segundo startGame.py e realizar as mesmas operações descritas acima.
+
+5º - Com a existência de dois jogadores no lobby da partida o jogador Azul deverá fazer a primeira jogada (como será indicado na própria UI), seguido do jogador Vermelho e essa repetição de ações deve continuar até que o jogo termine.
+
+6º - As primeiras décimas oitavas jogadas serão apenas para distribuir as peças no tabuleiro (sendo possível já criar uma trilha nessa fase).
+
+7º - Após as 18 peças serem distribuidas entra-se na fase de mover as peças (o jogador azul deverá ser o primeiro a mover uma peça), que funciona da seguinte forma: O jogador do turno deverá clicar em uma peça sua própria no tabuleiro e depois clicar em outra posição aonde ele deseja por a peça.
+
+8º - A interface conta com as seguintes informações:
+	Tabuleiro;
+	Chat;
+	Campo de escrita de mensagem;
+	Botão de envio de mensagem;
+	Informação de quantas peças azuis e vermelhas ainda se encontram presentes no tabuleiro;
+	Informação de qual a cor do jogador e qual a cor que deve jogar no atual turno;
+	Botão de desistir (pode ser utilizado em qualquer momento do jogo, até mesmo em seu início (antes das 18 peças serem distribuidas)).
